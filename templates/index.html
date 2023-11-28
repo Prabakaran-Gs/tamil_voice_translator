@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP 's Trans</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'styles.css') }}">
+</head>
+<body>
+    <div class="head">
+        <h1>TRANSLATOR</h1>
+    </div>
+
+    <div class ="bo">
+        <form action="{{ url_for('play') }}" method="post">
+            <div class="content">
+                <label class="st" for="name"> <h1> Enter the Statement : </h1></label>
+                <input class="sti" type="text" name="statement" placeholder="statement"><br>
+                <div class="button">
+                    <input class="sti" type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

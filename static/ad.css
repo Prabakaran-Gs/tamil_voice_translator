@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url('/static/bg.jpg');
+    background-size:cover; /* Fit the background image within the container */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head {
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    border:5px solid black ;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url('/static/bg.jpg');
+    background-size:cover; /* Fit the background image within the container */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head {
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.bo {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: larger;
+    border: 5px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sti {
+    display: flex;
+    font-size: xx-large;
+    font-weight: 600;
+}
